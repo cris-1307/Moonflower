@@ -12,4 +12,3 @@ Diseño adaptable a celular, tablet y escritorio con tres breakpoints.
 Fuente e íconos cargados por CDN (Google Fonts y Font Awesome).
 
 
-Proyecto académico, Ingeniería de Sistemas, Universidad de Córdoba.
