@@ -1,6 +1,7 @@
 # Moonflower
 Moonflower es un sitio web frontend para una floristería. Permite ver ramos y combos por categorías, conocer cada producto, armar un ramo paso a paso y enviar mensajes de contacto.
 Proyecto académico, Ingeniería de Sistemas, Universidad de Córdoba.
+
 Autora: Cristina Maria Benavides Martinez 
 
 Primera entrega
