@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Escríbenos tus dudas, sugerencias o pedidos especiales a Moonflower.">
+  <title>Contacto | Moonflower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body id="inicio-pagina">
+  <header class="encabezado">
+    <a class="logo" href="../../index.html"><i class="fa-solid fa-spa"></i> MOONFLOWER</a>
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label class="hamburguesa" for="menu-check" aria-label="Abrir o cerrar el menú"><i class="fa-solid fa-bars"></i></label>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="../producto/productos-ramos.html">Productos</a></li>
+        <li><a href="../catalogo/combos.html">Catálogo</a></li>
+        <li><a href="../crear-ramo/crear-ramo.html">Crea tu ramo</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="herramientas">
+      <a href="../producto/productos.html" aria-label="Ver todos los productos"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="cuenta.html" aria-label="Mi cuenta"><i class="fa-regular fa-user"></i></a>
+    </div>
+  </header>
+  <main class="contacto">
+    <section class="formulario">
+      <h1><i class="fa-regular fa-envelope"></i> Envíanos un mensaje</h1>
+      <p>¿Tienes alguna duda, sugerencia o quieres hacer un pedido especial? Escríbenos, estaremos felices de ayudarte.</p>
+      <form action="#" method="post">
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ ]{3,60}" title="Solo letras, entre 3 y 60 caracteres" required>
+        <label for="correo">Correo electrónico *</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+        <label for="asunto">Asunto *</label>
+        <select id="asunto" name="asunto" required>
+          <option value="">Selecciona un asunto</option>
+          <option value="duda">Duda</option>
+          <option value="sugerencia">Sugerencia</option>
+          <option value="pedido">Pedido especial</option>
+        </select>
+        <label for="mensaje">Mensaje *</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." minlength="10" maxlength="500" required></textarea>
+        <button type="submit" class="boton">Enviar mensaje <i class="fa-regular fa-paper-plane"></i></button>
+      </form>
+    </section>
+    <aside class="datos">
+      <h2>Información de contacto</h2>
+      <ul>
+        <li><i class="fa-solid fa-phone"></i> <span>Teléfono<br>+57 301 987 6543</span></li>
+        <li><i class="fa-regular fa-envelope"></i> <span>Correo electrónico<br>info@example.com</span></li>
+        <li><i class="fa-solid fa-location-dot"></i> <span>Ubicación<br>Córdoba, Colombia</span></li>
+        <li><i class="fa-regular fa-clock"></i> <span>Horario de atención<br>Lunes a Sábado, 8:00 a.m. - 6:00 p.m.</span></li>
+      </ul>
+      <h2>Síguenos</h2>
+      <ul class="redes">
+        <li><a class="ig" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a class="tt" href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+        <li><a class="fb" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a class="yt" href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a class="xx" href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+      </ul>
+    </aside>
+  </main>
+  <aside class="flotantes">
+    <a href="https://wa.me/573019876543" aria-label="Escribir por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#inicio-pagina" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+  </aside>
+  <footer class="pie">
+    <div class="pie-contenido">
+      <section class="pie-marca">
+        <p class="logo"><i class="fa-solid fa-spa"></i> MOONFLOWERS</p>
+        <p>Flores frescas para cada momento especial.</p>
+        <ul class="redes">
+          <li><a class="fb" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class="ig" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="in" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a class="yt" href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </section>
+      <nav aria-label="Enlaces rápidos">
+        <h2>Enlaces rápidos</h2>
+        <ul>
+          <li><a href="../../index.html">Inicio</a></li><li><a href="../producto/productos-ramos.html">Productos</a></li>
+          <li><a href="../catalogo/combos.html">Catálogo</a></li><li><a href="../crear-ramo/crear-ramo.html">Crea tu ramo</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Información">
+        <h2>Información</h2>
+        <ul>
+          <li><a href="informacion.html#quienes-somos">Quiénes somos</a></li>
+          <li><a href="informacion.html#terminos">Términos y condiciones</a></li>
+          <li><a href="informacion.html#privacidad">Políticas de privacidad</a></li>
+          <li><a href="informacion.html#preguntas">Preguntas</a></li>
+        </ul>
+      </nav>
+      <address>
+        <h2>Contáctanos</h2>
+        <p><i class="fa-solid fa-phone i-tel"></i> +57 301 987 6543</p>
+        <p><i class="fa-regular fa-envelope i-correo"></i> info@example.com</p>
+        <p><i class="fa-solid fa-location-dot i-lugar"></i> Córdoba, Colombia</p>
+      </address>
+    </div>
+    <p class="derechos">© 2026 Moonflower. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

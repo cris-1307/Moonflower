@@ -1,0 +1,14 @@
+CARPETA DE FOTOS
+Para cambiar una foto, reemplaza el archivo conservando el MISMO NOMBRE y la extensión .jpg
+(si tu foto es .png o .jpeg, conviértela a .jpg o cambia la ruta en el HTML).
+
+Tamaños recomendados:
+- hero-grande.jpg ........ 1470 x 550  (banner del inicio en computador)
+- hero-pequeno.jpg ....... 800 x 640   (banner del inicio en celular)
+- ocasion-*.jpg .......... 600 x 600   (círculos de Ocasiones especiales)
+- ramo-*.jpg y combo-*.jpg 800 x 800   (productos y páginas de detalle)
+- flor-*.jpg ............. 600 x 600   (página Crea tu ramo)
+- tu-ramo.jpg ............ 800 x 800   (vista previa de Crea tu ramo)
+
+Las fotos que no son cuadradas se recortan para encajar.
+Cada espacio tiene su propia foto, no hay repetidas.

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arma tu ramo paso a paso en Moonflower.">
+  <title>Complementos | Crea tu ramo | Moonflower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body id="inicio-pagina">
+  <header class="encabezado">
+    <a class="logo" href="../../index.html"><i class="fa-solid fa-spa"></i> MOONFLOWER</a>
+    <input type="checkbox" id="menu-check" class="menu-check">
+    <label class="hamburguesa" for="menu-check" aria-label="Abrir o cerrar el menú"><i class="fa-solid fa-bars"></i></label>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="../../index.html">Inicio</a></li>
+        <li><a href="../producto/productos-ramos.html">Productos</a></li>
+        <li><a href="../catalogo/combos.html">Catálogo</a></li>
+        <li><a href="crear-ramo.html" class="activo">Crea tu ramo</a></li>
+        <li><a href="../contacto/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="herramientas">
+      <a href="../producto/productos.html" aria-label="Ver todos los productos"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="../contacto/cuenta.html" aria-label="Mi cuenta"><i class="fa-regular fa-user"></i></a>
+    </div>
+  </header>
+  <main class="crear">
+    <aside class="pasos">
+      <h1>Crea tu ramo ideal</h1>
+      <p>Elige tus flores favoritas y arma tu ramo perfecto</p>
+      <ol>
+        <li><a href="crear-ramo.html">Elige tus flores</a></li>
+        <li><a href="crear-personaliza.html">Personaliza</a></li>
+        <li class="actual"><a href="crear-complementos.html" aria-current="step">Complementos</a></li>
+        <li><a href="crear-revisa.html">Revisa y guarda</a></li>
+      </ol>
+    </aside>
+    <form class="armador" action="crear-revisa.html" method="get">
+      <section class="elegir">
+        <h2>Complementos</h2>
+        <fieldset class="complementos">
+          <legend>Agrega un detalle (opcional)</legend>
+          <label><input type="checkbox" name="complemento" value="chocolates"> Chocolates</label>
+          <label><input type="checkbox" name="complemento" value="vino"> Vino</label>
+          <label><input type="checkbox" name="complemento" value="globo"> Globo</label>
+          <label><input type="checkbox" name="complemento" value="peluche"> Peluche</label>
+        </fieldset>
+      </section>
+      <section class="tu-ramo">
+        <h2>Tu ramo</h2>
+        <img src="../../fotos/tu-ramo.jpg" alt="Vista de tu ramo" width="400" height="400">
+        <button type="submit" class="boton">Continuar</button>
+        <a class="boton-borde" href="crear-personaliza.html">Atrás</a>
+      </section>
+    </form>
+  </main>
+  <aside class="flotantes">
+    <a href="https://wa.me/573019876543" aria-label="Escribir por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#inicio-pagina" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+  </aside>
+  <footer class="pie">
+    <div class="pie-contenido">
+      <section class="pie-marca">
+        <p class="logo"><i class="fa-solid fa-spa"></i> MOONFLOWERS</p>
+        <p>Flores frescas para cada momento especial.</p>
+        <ul class="redes">
+          <li><a class="fb" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a class="ig" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="in" href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a class="yt" href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </section>
+      <nav aria-label="Enlaces rápidos">
+        <h2>Enlaces rápidos</h2>
+        <ul>
+          <li><a href="../../index.html">Inicio</a></li><li><a href="../producto/productos-ramos.html">Productos</a></li>
+          <li><a href="../catalogo/combos.html">Catálogo</a></li><li><a href="crear-ramo.html">Crea tu ramo</a></li>
+          <li><a href="../contacto/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Información">
+        <h2>Información</h2>
+        <ul>
+          <li><a href="../contacto/informacion.html#quienes-somos">Quiénes somos</a></li>
+          <li><a href="../contacto/informacion.html#terminos">Términos y condiciones</a></li>
+          <li><a href="../contacto/informacion.html#privacidad">Políticas de privacidad</a></li>
+          <li><a href="../contacto/informacion.html#preguntas">Preguntas</a></li>
+        </ul>
+      </nav>
+      <address>
+        <h2>Contáctanos</h2>
+        <p><i class="fa-solid fa-phone i-tel"></i> +57 301 987 6543</p>
+        <p><i class="fa-regular fa-envelope i-correo"></i> info@example.com</p>
+        <p><i class="fa-solid fa-location-dot i-lugar"></i> Córdoba, Colombia</p>
+      </address>
+    </div>
+    <p class="derechos">© 2026 Moonflower. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
