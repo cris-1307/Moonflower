@@ -147,3 +147,4 @@ moonflower/
 
 No necesita instalar nada.Descarga el proyecto (Code > Download ZIP), descomprímelo y abre el archivo index.html en el navegador. Se necesita internet para que carguen la fuente y los íconos.
 
+Activa GitHub Pages
