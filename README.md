@@ -71,15 +71,5 @@ moonflower/
 
 ## Cómo ejecutarlo en local
 
-No necesita instalar nada.
+No necesita instalar nada.Descarga el proyecto (Code > Download ZIP), descomprímelo y abre el archivo index.html en el navegador. Se necesita internet para que carguen la fuente y los íconos.
 
-1. Descarga el proyecto: en GitHub pulsa **Code** y luego **Download ZIP**, y descomprímelo. También puedes clonarlo:
-   ```
-   git clone https://github.com/cris-1307/moonflower.git
-   ```
-2. Abre la carpeta `moonflower` y haz doble clic en `index.html`. Se abre en el navegador.
-3. Navega desde el menú.
-
-Si usas Visual Studio Code, puedes instalar la extensión **Live Server**, hacer clic derecho en `index.html` y elegir **Open with Live Server**.
-
-Se necesita internet para que carguen la fuente y los íconos.
