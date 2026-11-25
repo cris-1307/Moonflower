@@ -1,0 +1,321 @@
+{
+  "productos": [
+    {
+      "id": "ramo-primavera",
+      "nombre": "Ramo primavera",
+      "precio": 300000,
+      "pagina": "producto/ramo-primavera.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ],
+      "descuento": 15,
+      "promo": "Ramo primavera con 15% de descuento"
+    },
+    {
+      "id": "ramo-amor-eterno",
+      "nombre": "Ramo amor eterno",
+      "precio": 350000,
+      "pagina": "producto/ramo-amor-eterno.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-tulipanes",
+      "nombre": "Ramo tulipanes",
+      "precio": 1200000,
+      "pagina": "producto/ramo-tulipanes.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-cielo",
+      "nombre": "Ramo cielo",
+      "precio": 245000,
+      "pagina": "producto/ramo-cielo.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-sol",
+      "nombre": "Ramo sol",
+      "precio": 150000,
+      "pagina": "producto/ramo-sol.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-peonias",
+      "nombre": "Ramo peonías",
+      "precio": 110000,
+      "pagina": "producto/ramo-peonias.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-encanto",
+      "nombre": "Ramo encanto",
+      "precio": 90000,
+      "pagina": "producto/ramo-encanto.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "ramo-luna",
+      "nombre": "Ramo luna",
+      "precio": 150000,
+      "pagina": "producto/ramo-luna.html",
+      "categorias": [
+        "todos",
+        "ramos"
+      ]
+    },
+    {
+      "id": "combo-rosas-dairy",
+      "nombre": "Combo Rosas y Dairy milk",
+      "precio": 150000,
+      "pagina": "catalogo/combo-rosas-dairy.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "chocolates",
+        "detalles"
+      ],
+      "descuento": 20,
+      "promo": "Rosas y Dairy Milk, ideal para amor y amistad"
+    },
+    {
+      "id": "combo-peonias-vino",
+      "nombre": "Peonías y vino",
+      "precio": 100000,
+      "pagina": "catalogo/combo-peonias-vino.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "vino",
+        "arreglos"
+      ]
+    },
+    {
+      "id": "combo-peonias-globo",
+      "nombre": "Combo peonías y globo de cumpleaños",
+      "precio": 90000,
+      "pagina": "catalogo/combo-peonias-globo.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "romanticos",
+        "arreglos"
+      ]
+    },
+    {
+      "id": "combo-girasoles",
+      "nombre": "Combo girasoles y photocards Jungkook",
+      "precio": 100000,
+      "pagina": "catalogo/combo-girasoles.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "romanticos",
+        "detalles"
+      ],
+      "descuento": 10,
+      "promo": "Girasoles y photocards con 10% menos"
+    },
+    {
+      "id": "combo-margaritas",
+      "nombre": "Combo margaritas y peluche Chimmy",
+      "precio": 150000,
+      "pagina": "catalogo/combo-margaritas.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "romanticos",
+        "detalles"
+      ]
+    },
+    {
+      "id": "combo-peonias-chocolate",
+      "nombre": "Combo peonías y chocolate",
+      "precio": 245000,
+      "pagina": "catalogo/combo-peonias-chocolate.html",
+      "categorias": [
+        "todos",
+        "combos",
+        "chocolates",
+        "cajas"
+      ]
+    }
+  ],
+  "flores": [
+    {
+      "id": "rosa",
+      "nombre": "Rosa",
+      "precio": 5000
+    },
+    {
+      "id": "cala",
+      "nombre": "Cala",
+      "precio": 8000
+    },
+    {
+      "id": "clavel",
+      "nombre": "Clavel",
+      "precio": 3000
+    },
+    {
+      "id": "loto",
+      "nombre": "Loto",
+      "precio": 12000
+    },
+    {
+      "id": "lisianthus",
+      "nombre": "Lisianthus",
+      "precio": 7000
+    },
+    {
+      "id": "gladiolo",
+      "nombre": "Gladiolo",
+      "precio": 4000
+    }
+  ],
+  "complementos": [
+    {
+      "id": "chocolates",
+      "nombre": "Chocolates",
+      "precio": 25000
+    },
+    {
+      "id": "vino",
+      "nombre": "Vino",
+      "precio": 60000
+    },
+    {
+      "id": "globo",
+      "nombre": "Globo",
+      "precio": 15000
+    },
+    {
+      "id": "peluche",
+      "nombre": "Peluche",
+      "precio": 30000
+    }
+  ],
+  "envolturas": [
+    {
+      "id": "lila",
+      "nombre": "Papel lila"
+    },
+    {
+      "id": "blanco",
+      "nombre": "Papel blanco"
+    },
+    {
+      "id": "kraft",
+      "nombre": "Papel kraft"
+    }
+  ],
+  "ejemplos": [
+    {
+      "id": "romantico",
+      "nombre": "Romántico",
+      "ocasion": "Aniversario",
+      "foto": "ramo-amor-eterno.jpg",
+      "flores": [
+        {
+          "id": "rosa",
+          "cantidad": 8,
+          "nombre": "Rosa"
+        }
+      ],
+      "complementos": [
+        "vino"
+      ],
+      "envoltura": "blanco",
+      "destinatario": "Laura",
+      "tarjeta": "Feliz aniversario, te amo"
+    },
+    {
+      "id": "delicado",
+      "nombre": "Delicado en lila",
+      "ocasion": "Detalle sin motivo",
+      "foto": "ramo-luna.jpg",
+      "flores": [
+        {
+          "id": "lisianthus",
+          "cantidad": 5,
+          "nombre": "Lisianthus"
+        },
+        {
+          "id": "loto",
+          "cantidad": 2,
+          "nombre": "Loto"
+        }
+      ],
+      "complementos": [],
+      "envoltura": "lila",
+      "destinatario": "Marta",
+      "tarjeta": "Para ti, con cariño"
+    },
+    {
+      "id": "alegre",
+      "nombre": "Alegre y colorido",
+      "ocasion": "Cumpleaños",
+      "foto": "ramo-primavera.jpg",
+      "flores": [
+        {
+          "id": "gladiolo",
+          "cantidad": 4,
+          "nombre": "Gladiolo"
+        },
+        {
+          "id": "clavel",
+          "cantidad": 4,
+          "nombre": "Clavel"
+        },
+        {
+          "id": "rosa",
+          "cantidad": 2,
+          "nombre": "Rosa"
+        }
+      ],
+      "complementos": [
+        "globo"
+      ],
+      "envoltura": "kraft",
+      "destinatario": "Camilo",
+      "tarjeta": "¡Feliz cumpleaños!"
+    },
+    {
+      "id": "elegante",
+      "nombre": "Elegante",
+      "ocasion": "Grados",
+      "foto": "ramo-cielo.jpg",
+      "flores": [
+        {
+          "id": "cala",
+          "cantidad": 6,
+          "nombre": "Cala"
+        }
+      ],
+      "complementos": [
+        "chocolates"
+      ],
+      "envoltura": "blanco",
+      "destinatario": "Andrea",
+      "tarjeta": "Felicitaciones, lo lograste"
+    }
+  ]
+}

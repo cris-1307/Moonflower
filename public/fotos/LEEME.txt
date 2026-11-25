@@ -1,0 +1,17 @@
+CARPETA DE FOTOS
+Para cambiar una foto, reemplaza el archivo conservando el MISMO NOMBRE y la extensión .jpg.
+
+Tamaños recomendados (todas se recortan con "cover", así que el tema debe ir al centro):
+- hero-grande.jpg ........ 1470 x 824  (banner del inicio en computador)
+- hero-pequeno.jpg ....... 800 x 640   (banner del inicio en celular)
+- ramo-*.jpg y combo-*.jpg 1000 x 1000 (cuadradas: tarjetas, detalle y diapositivas de promoción)
+- ocasion-*.jpg .......... 600 x 600   (círculos de Ocasiones especiales)
+- flor-*.jpg ............. 600 x 600   (Crea tu ramo)
+- tu-ramo.jpg ............ 800 x 800   (diapositiva "Arma tu propio ramo" del inicio)
+
+Para que las promociones se vean parejas, usa fotos con la misma proporción (cuadradas), con buena luz y
+el ramo ocupando la mayor parte de la imagen.
+
+Fotos nuevas sin cambiar el nombre de las de siempre (se indican en public/data.json):
+- Promoción con otra foto en el carrusel: agrega "fotoPromo": "mi-foto.jpg" al producto.
+- Ramos de ejemplo de Crea tu ramo: cada uno de "ejemplos" tiene su "foto" (proporción 4:3, por ejemplo 1200 x 900).
